@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: #a10e1d;
+}
+
+h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar-brand,
+.nav-link {
+  color: #a10e1d;
+  font-weight: bold;
+}
+.card-text,
+h4,
+p {
+  color: #a10e1d;
+  font-weight: bold;
+}
+.btn,
+.btn-outline-light {
+  color: #a10e1d;
+}
+.container {
+  margin: auto;
+}
+@media screen and (max-width: 512px) {
+  .row {
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .row {
+    margin-left: 100px;
+  }
+}
